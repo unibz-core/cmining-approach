@@ -1,0 +1,27 @@
+t # 0
+v 0 Access
+v 1 TechnologyService
+v 2 Realization
+v 3 ApplicationService
+v 4 Realization
+v 5 TechnologyService
+v 6 Access
+v 7 Artifact
+v 8 Artifact
+e 0 1 source
+e 0 8 target
+e 1 2 source
+e 2 3 target
+e 3 4 target
+e 4 5 source
+e 5 6 source
+e 6 7 target
+
+Support: 4
+where: [8, 9, 6, 7]
+
+-----------------
+
+Read:	0.0 s
+Mine:	0.02 s
+Total:	0.02 s

@@ -1,0 +1,27 @@
+t # 0
+v 0 BusinessService
+v 1 Flow
+v 2 BusinessService
+v 3 Serving
+v 4 BusinessService
+v 5 Triggering
+v 6 BusinessService
+v 7 Triggering
+v 8 BusinessService
+e 0 1 source
+e 0 3 source
+e 0 5 source
+e 0 7 target
+e 1 2 target
+e 3 4 target
+e 5 6 target
+e 7 8 source
+
+Support: 3
+where: [0, 4, 5]
+
+-----------------
+
+Read:	0.0 s
+Mine:	0.01 s
+Total:	0.01 s

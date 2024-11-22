@@ -1,0 +1,23 @@
+t # 0
+v 0 Access
+v 1 ApplicationService
+v 2 Serving
+v 3 ApplicationService
+v 4 Serving
+v 5 BusinessService
+v 6 DataObject
+e 0 1 source
+e 0 6 target
+e 1 2 source
+e 1 4 source
+e 2 3 target
+e 4 5 target
+
+Support: 3
+where: [9, 4, 5]
+
+-----------------
+
+Read:	0.0 s
+Mine:	0.01 s
+Total:	0.01 s

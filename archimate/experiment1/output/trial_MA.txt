@@ -1,0 +1,19 @@
+t # 0
+v 0 Assignment
+v 1 BusinessActor
+v 2 Assignment
+v 3 BusinessProcess
+v 4 BusinessProcess
+e 0 1 source
+e 0 4 target
+e 1 2 source
+e 2 3 target
+
+Support: 5
+where: [0, 3, 4, 6, 7]
+
+-----------------
+
+Read:	0.0 s
+Mine:	0.01 s
+Total:	0.01 s

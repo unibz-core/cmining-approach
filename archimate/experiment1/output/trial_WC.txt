@@ -1,0 +1,19 @@
+t # 0
+v 0 ApplicationComponent
+v 1 Realization
+v 2 ApplicationFunction
+v 3 Realization
+v 4 ApplicationComponent
+e 0 1 source
+e 1 2 target
+e 2 3 target
+e 3 4 source
+
+Support: 7
+where: [1, 2, 3, 6, 7, 8, 9]
+
+-----------------
+
+Read:	0.0 s
+Mine:	0.0 s
+Total:	0.0 s
