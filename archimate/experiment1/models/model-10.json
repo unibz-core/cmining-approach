@@ -1,0 +1,178 @@
+{
+    "archimateId": "id-f400570cb84c4e4fb850d883f7dfa02e",
+    "name": "Test Model 10",
+    "documentation": "",
+    "file": "experiment1-dataset/model-10.archimate",
+    "format": "ARCHIMATE",
+    "has_warning": false,
+    "elements": [
+        {
+            "id": "id-e47240c0b98e4a33a59287a3223d825b",
+            "name": "Application Function",
+            "type": "ApplicationFunction",
+            "layer": "application",
+            "documentation": ""
+        },
+        {
+            "id": "id-65e2718e0a794526996e572df19a66f2",
+            "name": "Application Component A",
+            "type": "ApplicationComponent",
+            "layer": "application",
+            "documentation": ""
+        },
+        {
+            "id": "id-de83bbdf51ae40cbbff4338eb88d5ab0",
+            "name": "Application Component B",
+            "type": "ApplicationComponent",
+            "layer": "application",
+            "documentation": ""
+        },
+        {
+            "id": "id-15c09b0ee7714024a220a0df8a9af55e",
+            "name": "Technology Service A",
+            "type": "TechnologyService",
+            "layer": "technology",
+            "documentation": ""
+        },
+        {
+            "id": "id-a45f6d3ee3c24889bdeb4ba29a0829c7",
+            "name": "Technology Service B",
+            "type": "TechnologyService",
+            "layer": "technology",
+            "documentation": ""
+        },
+        {
+            "id": "id-64614d2e9c61417da2e1863db75090b1",
+            "name": "Technology Service C",
+            "type": "TechnologyService",
+            "layer": "technology",
+            "documentation": ""
+        },
+        {
+            "id": "id-cc43022dc5284018b2096371659b839b",
+            "name": "Technology Service D",
+            "type": "TechnologyService",
+            "layer": "technology",
+            "documentation": ""
+        },
+        {
+            "id": "id-90b52671b9f74c0d95a00683c53845b0",
+            "name": "Technology Service A",
+            "type": "TechnologyService",
+            "layer": "technology",
+            "documentation": ""
+        },
+        {
+            "id": "id-1f5822e18a71454c9a0c1dc730f73c09",
+            "name": "Technology Service B",
+            "type": "TechnologyService",
+            "layer": "technology",
+            "documentation": ""
+        },
+        {
+            "id": "id-6c50ad405f694e12b2c36616f7593cdc",
+            "name": "Technology Service C",
+            "type": "TechnologyService",
+            "layer": "technology",
+            "documentation": ""
+        },
+        {
+            "id": "id-09ad290fd2784f84ac68e52cb5bab0cc",
+            "name": "Technology Service D",
+            "type": "TechnologyService",
+            "layer": "technology",
+            "documentation": ""
+        }
+    ],
+    "relationships": [
+        {
+            "id": "id-070dce570194406f89b728dd67924e74",
+            "name": "",
+            "sourceId": "id-cc43022dc5284018b2096371659b839b",
+            "targetId": "id-15c09b0ee7714024a220a0df8a9af55e",
+            "type": "Triggering",
+            "documentation": ""
+        },
+        {
+            "id": "id-c2574a886dd444898626dae0c2fb6b16",
+            "name": "",
+            "sourceId": "id-64614d2e9c61417da2e1863db75090b1",
+            "targetId": "id-cc43022dc5284018b2096371659b839b",
+            "type": "Triggering",
+            "documentation": ""
+        },
+        {
+            "id": "id-9fa2b452d95f46839eb39419b739a612",
+            "name": "",
+            "sourceId": "id-15c09b0ee7714024a220a0df8a9af55e",
+            "targetId": "id-a45f6d3ee3c24889bdeb4ba29a0829c7",
+            "type": "Triggering",
+            "documentation": ""
+        },
+        {
+            "id": "id-d3e7e1d417db41f28db95037163dab1a",
+            "name": "",
+            "sourceId": "id-a45f6d3ee3c24889bdeb4ba29a0829c7",
+            "targetId": "id-64614d2e9c61417da2e1863db75090b1",
+            "type": "Triggering",
+            "documentation": ""
+        },
+        {
+            "id": "id-169c3b5c2b354babaae8846f80abcf48",
+            "name": "",
+            "sourceId": "id-09ad290fd2784f84ac68e52cb5bab0cc",
+            "targetId": "id-90b52671b9f74c0d95a00683c53845b0",
+            "type": "Triggering",
+            "documentation": ""
+        },
+        {
+            "id": "id-de831241518a429b9effe0d85d4cf7fa",
+            "name": "",
+            "sourceId": "id-6c50ad405f694e12b2c36616f7593cdc",
+            "targetId": "id-09ad290fd2784f84ac68e52cb5bab0cc",
+            "type": "Triggering",
+            "documentation": ""
+        },
+        {
+            "id": "id-f3e3764d22564fe9b063d5afc47b9976",
+            "name": "",
+            "sourceId": "id-90b52671b9f74c0d95a00683c53845b0",
+            "targetId": "id-1f5822e18a71454c9a0c1dc730f73c09",
+            "type": "Triggering",
+            "documentation": ""
+        },
+        {
+            "id": "id-efb6a65fe2374c8eb5d29a81bb75f9cc",
+            "name": "",
+            "sourceId": "id-1f5822e18a71454c9a0c1dc730f73c09",
+            "targetId": "id-6c50ad405f694e12b2c36616f7593cdc",
+            "type": "Triggering",
+            "documentation": ""
+        },
+        {
+            "id": "id-6f8cf6aee8ff490eaa1941a6f6749be3",
+            "name": "",
+            "sourceId": "id-de83bbdf51ae40cbbff4338eb88d5ab0",
+            "targetId": "id-e47240c0b98e4a33a59287a3223d825b",
+            "type": "Realization",
+            "documentation": ""
+        },
+        {
+            "id": "id-0a692d20182b4d4ebe853e28d0baa206",
+            "name": "",
+            "sourceId": "id-65e2718e0a794526996e572df19a66f2",
+            "targetId": "id-e47240c0b98e4a33a59287a3223d825b",
+            "type": "Realization",
+            "documentation": ""
+        }
+    ],
+    "views": [
+        {
+            "id": "id-4702d7d2159e4d1d85b418f7373803fd",
+            "name": "Default View",
+            "documentation": "",
+            "viewpoint": ""
+        }
+    ],
+    "warnings": []
+}

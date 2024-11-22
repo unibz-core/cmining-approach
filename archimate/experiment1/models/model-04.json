@@ -1,0 +1,177 @@
+{
+    "archimateId": "id-7fef91d33b6842c8a0c7ae9419edf0f7",
+    "name": "Test Model 4",
+    "documentation": "",
+    "file": "experiment1-dataset/model-04.archimate",
+    "format": "ARCHIMATE",
+    "has_warning": false,
+    "elements": [
+        {
+            "id": "id-cb0ecacba3f140699bbbe2b9da0b6f4d",
+            "name": "Chatty Service",
+            "type": "BusinessService",
+            "layer": "business",
+            "documentation": ""
+        },
+        {
+            "id": "id-ff75729e422441cabb7537d06bd06878",
+            "name": "Business Service D",
+            "type": "BusinessService",
+            "layer": "business",
+            "documentation": ""
+        },
+        {
+            "id": "id-f6324491583542788cd6f7ba77f8d536",
+            "name": "Business Service C",
+            "type": "BusinessService",
+            "layer": "business",
+            "documentation": ""
+        },
+        {
+            "id": "id-b84aca646e3e46a4b0d4c3769e22c408",
+            "name": "Business Service B",
+            "type": "BusinessService",
+            "layer": "business",
+            "documentation": ""
+        },
+        {
+            "id": "id-5a2daf3ca3e2489bacf53de91531e118",
+            "name": "Business Service A",
+            "type": "BusinessService",
+            "layer": "business",
+            "documentation": ""
+        },
+        {
+            "id": "id-b48f6cc2de504d0ab6dba095ed2f3466",
+            "name": "Business Service ",
+            "type": "BusinessService",
+            "layer": "business",
+            "documentation": ""
+        },
+        {
+            "id": "id-7ac71dc52c6e4693b7080de5a97d1399",
+            "name": "Business Actor",
+            "type": "BusinessActor",
+            "layer": "business",
+            "documentation": ""
+        },
+        {
+            "id": "id-d46a6725006d4c57b6f24a7c983245f4",
+            "name": "Business Process 1",
+            "type": "BusinessProcess",
+            "layer": "business",
+            "documentation": ""
+        },
+        {
+            "id": "id-9ad5a1b43a5c49f98b8ed1afaa39b635",
+            "name": "Business Process 2",
+            "type": "BusinessProcess",
+            "layer": "business",
+            "documentation": ""
+        },
+        {
+            "id": "id-06c0633e2f03451b9ec5ed5fc97706a6",
+            "name": "Data Service",
+            "type": "ApplicationService",
+            "layer": "application",
+            "documentation": ""
+        },
+        {
+            "id": "id-3caf9d941a72488aa0f202e47f868ca2",
+            "name": "Application Service",
+            "type": "ApplicationService",
+            "layer": "application",
+            "documentation": ""
+        },
+        {
+            "id": "id-d86cc45cea2b4d7c97eb8f038cd7f029",
+            "name": "Data Object",
+            "type": "DataObject",
+            "layer": "application",
+            "documentation": ""
+        }
+    ],
+    "relationships": [
+        {
+            "id": "id-ce74eaeef2d745a2975c24b778fc2a2b",
+            "name": "",
+            "sourceId": "id-cb0ecacba3f140699bbbe2b9da0b6f4d",
+            "targetId": "id-b84aca646e3e46a4b0d4c3769e22c408",
+            "type": "Triggering",
+            "documentation": ""
+        },
+        {
+            "id": "id-20e3c85197a74b9f9deaeed6a70645c3",
+            "name": "",
+            "sourceId": "id-cb0ecacba3f140699bbbe2b9da0b6f4d",
+            "targetId": "id-5a2daf3ca3e2489bacf53de91531e118",
+            "type": "Flow",
+            "documentation": ""
+        },
+        {
+            "id": "id-8d8dea449a3a4608a7352adb65c7a6b5",
+            "name": "",
+            "sourceId": "id-ff75729e422441cabb7537d06bd06878",
+            "targetId": "id-cb0ecacba3f140699bbbe2b9da0b6f4d",
+            "type": "Triggering",
+            "documentation": ""
+        },
+        {
+            "id": "id-0556deff7cc746a2bf07a45bd31925c7",
+            "name": "",
+            "sourceId": "id-cb0ecacba3f140699bbbe2b9da0b6f4d",
+            "targetId": "id-f6324491583542788cd6f7ba77f8d536",
+            "type": "Serving",
+            "documentation": ""
+        },
+        {
+            "id": "id-d4a07a844dd543c195ef21490bcc8d10",
+            "name": "",
+            "sourceId": "id-06c0633e2f03451b9ec5ed5fc97706a6",
+            "targetId": "id-b48f6cc2de504d0ab6dba095ed2f3466",
+            "type": "Serving",
+            "documentation": ""
+        },
+        {
+            "id": "id-f61b577ada3d43488178e8ddcc9d0bdb",
+            "name": "",
+            "sourceId": "id-06c0633e2f03451b9ec5ed5fc97706a6",
+            "targetId": "id-d86cc45cea2b4d7c97eb8f038cd7f029",
+            "type": "Access",
+            "documentation": ""
+        },
+        {
+            "id": "id-78d55fc989e640929a6712b9c0ebd16d",
+            "name": "",
+            "sourceId": "id-06c0633e2f03451b9ec5ed5fc97706a6",
+            "targetId": "id-3caf9d941a72488aa0f202e47f868ca2",
+            "type": "Serving",
+            "documentation": ""
+        },
+        {
+            "id": "id-09477689a59740548e4b39ab2d68c138",
+            "name": "",
+            "sourceId": "id-7ac71dc52c6e4693b7080de5a97d1399",
+            "targetId": "id-9ad5a1b43a5c49f98b8ed1afaa39b635",
+            "type": "Assignment",
+            "documentation": ""
+        },
+        {
+            "id": "id-db242b303f27404fb0624801f18892f7",
+            "name": "",
+            "sourceId": "id-7ac71dc52c6e4693b7080de5a97d1399",
+            "targetId": "id-d46a6725006d4c57b6f24a7c983245f4",
+            "type": "Assignment",
+            "documentation": ""
+        }
+    ],
+    "views": [
+        {
+            "id": "id-2db2e1ab84a84f21b5a647b66a695f14",
+            "name": "Default View",
+            "documentation": "",
+            "viewpoint": ""
+        }
+    ],
+    "warnings": []
+}

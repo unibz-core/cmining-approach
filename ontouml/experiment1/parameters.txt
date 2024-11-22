@@ -1,0 +1,77 @@
+# relator
+? Select classes to filter-out:  done (19 selections)
+Deleted nodes (classes): ['class', 'gen-set', 'subkind', 'phase', 'collective', 'quantity', 'category', 'phaseMixin', 'roleMixin', 'mixin', 'mode', 'quality', 'event', 'historicalRoleMixin', 'historicalRole', 'situation', 'type', 'datatype', 'enumeration']
+? Select relations to filter-out:  [characterization]
+Deleted nodes (relations): ['characterization', 'derivation']
+? Select edges to filter-out:  done (3 selections)
+Deleted edges: ['isComplete', 'isDisjoint', 'restrictedTo']
+? Enter the min_support value  3
+? Enter the min_num_vertices  12
+Selected values: [3, 12]
+? Do you want to filter out known patterns? (yes/no)  n
+? Enter the similarity threshold (between 0 and 1):  0
+
+# rolemixin
+? Select classes to filter-out:  done (18 selections)
+Deleted nodes (classes): ['class', 'subkind', 'phase', 'collective', 'quantity', 'relator', 'category', 'phaseMixin', 'mixin', 'mode', 'quality', 'event', 'historicalRoleMixin', 'historicalRole', 'situation', 'type', 'datatype', 'enumeration']
+? Select relations to filter-out:  done
+Deleted nodes (relations): ['derivation']
+? Select edges to filter-out:  done (6 selections)
+Deleted edges: ['cardinalities', 'isComplete', 'isDisjoint', 'source', 'target', 'restrictedTo']
+? Enter the min_support value  4
+? Enter the min_num_vertices  10
+Selected values: [4, 10]
+? Do you want to filter out known patterns? (yes/no)  n
+? Enter the similarity threshold (between 0 and 1):  0
+
+# characterization
+? Select classes to filter-out:  done (20 selections)
+Deleted nodes (classes): ['class', 'gen-set', 'subkind', 'phase', 'role', 'collective', 'quantity', 'relator', 'category', 'phaseMixin', 'roleMixin', 'mixin', 'quality', 'event', 'historicalRoleMixin', 'historicalRole', 'situation', 'type', 'datatype', 'enumeration']
+? Select relations to filter-out:  done
+Deleted nodes (relations): ['derivation']
+? Select edges to filter-out:  done (6 selections)
+Deleted edges: ['isComplete', 'isDisjoint', 'specific', 'general', 'generalization', 'restrictedTo']
+? Enter the min_support value  8
+? Enter the min_num_vertices  4
+Selected values: [8, 4]
+? Do you want to filter out known patterns? (yes/no)  n
+? Enter the similarity threshold (between 0 and 1):  0
+
+# category 
+? Select classes to filter-out:  done (19 selections)
+Deleted nodes (classes): ['class', 'subkind', 'phase', 'role', 'collective', 'quantity', 'relator', 'phaseMixin', 'roleMixin', 'mixin', 'mode', 'quality', 'event', 'historicalRoleMixin', 'historicalRole', 'situation', 'type', 'datatype', 'enumeration']
+? Select relations to filter-out:  done
+Deleted nodes (relations): ['derivation']
+? Select edges to filter-out:  done (6 selections)
+Deleted edges: ['cardinalities', 'isComplete', 'isDisjoint', 'source', 'target', 'restrictedTo']
+? Enter the min_support value  6
+? Enter the min_num_vertices  4
+Selected values: [6, 4]
+? Do you want to filter out known patterns? (yes/no)  n
+? Enter the similarity threshold (between 0 and 1):  0
+
+# subkind 
+? Select classes to filter-out:  done (19 selections)
+Deleted nodes (classes): ['class', 'phase', 'role', 'collective', 'quantity', 'relator', 'category', 'phaseMixin', 'roleMixin', 'mixin', 'mode', 'quality', 'event', 'historicalRoleMixin', 'historicalRole', 'situation', 'type', 'datatype', 'enumeration']
+? Select relations to filter-out:  done
+Deleted nodes (relations): ['derivation']
+? Select edges to filter-out:  done (6 selections)
+Deleted edges: ['cardinalities', 'isComplete', 'isDisjoint', 'source', 'target', 'restrictedTo']
+? Enter the min_support value  3
+? Enter the min_num_vertices  4
+Selected values: [3, 4]
+? Do you want to filter out known patterns? (yes/no)  n
+? Enter the similarity threshold (between 0 and 1):  0
+
+# phase
+? Select classes to filter-out:  done (19 selections)
+Deleted nodes (classes): ['class', 'subkind', 'role', 'collective', 'quantity', 'relator', 'category', 'phaseMixin', 'roleMixin', 'mixin', 'mode', 'quality', 'event', 'historicalRoleMixin', 'historicalRole', 'situation', 'type', 'datatype', 'enumeration']
+? Select relations to filter-out:  done
+Deleted nodes (relations): ['derivation']
+? Select edges to filter-out:  done (6 selections)
+Deleted edges: ['cardinalities', 'isComplete', 'isDisjoint', 'source', 'target', 'restrictedTo']
+? Enter the min_support value  3
+? Enter the min_num_vertices  4
+Selected values: [3, 4]
+? Do you want to filter out known patterns? (yes/no)  n
+? Enter the similarity threshold (between 0 and 1):  0

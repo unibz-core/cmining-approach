@@ -1,0 +1,222 @@
+{
+    "archimateId": "id-ce1f2d21686845c697805762a0414f01",
+    "name": "Test Model 2",
+    "documentation": "",
+    "file": "experiment1-dataset/model-02.archimate",
+    "format": "ARCHIMATE",
+    "has_warning": false,
+    "elements": [
+        {
+            "id": "id-c6e1407931fb4820bc4f7f78ba6cd514",
+            "name": "Application Service",
+            "type": "ApplicationService",
+            "layer": "application",
+            "documentation": ""
+        },
+        {
+            "id": "id-c5c08b58286c489eacc4455b28ecf1c2",
+            "name": "Application Function",
+            "type": "ApplicationFunction",
+            "layer": "application",
+            "documentation": ""
+        },
+        {
+            "id": "id-e36f95266805418081bba6894b57ff9b",
+            "name": "Application Component A",
+            "type": "ApplicationComponent",
+            "layer": "application",
+            "documentation": ""
+        },
+        {
+            "id": "id-c456630e733c42e1bd35a959dc9a2853",
+            "name": "Application Component B",
+            "type": "ApplicationComponent",
+            "layer": "application",
+            "documentation": ""
+        },
+        {
+            "id": "id-77f0a81cc331412382d299dcc8e2f32a",
+            "name": "Application Function",
+            "type": "ApplicationFunction",
+            "layer": "application",
+            "documentation": ""
+        },
+        {
+            "id": "id-82d9ecb290ef4268b0a30ae9d0714c29",
+            "name": "Application Component A",
+            "type": "ApplicationComponent",
+            "layer": "application",
+            "documentation": ""
+        },
+        {
+            "id": "id-3d7bdd932e6e4169b136e3b899d1bea6",
+            "name": "Application Component B",
+            "type": "ApplicationComponent",
+            "layer": "application",
+            "documentation": ""
+        },
+        {
+            "id": "id-146c8f9496934124a3adc6df2cfff13d",
+            "name": "Technology Service A",
+            "type": "TechnologyService",
+            "layer": "technology",
+            "documentation": ""
+        },
+        {
+            "id": "id-4a917f339ab44430a226a31e6df7463c",
+            "name": "Technology Service B",
+            "type": "TechnologyService",
+            "layer": "technology",
+            "documentation": ""
+        },
+        {
+            "id": "id-288678f904424603843ba31436bcba1a",
+            "name": "Artifact B",
+            "type": "Artifact",
+            "layer": "technology",
+            "documentation": ""
+        },
+        {
+            "id": "id-ce2b66559bd4445e8d6baa1c9cfd3a8e",
+            "name": "Artifact A",
+            "type": "Artifact",
+            "layer": "technology",
+            "documentation": ""
+        },
+        {
+            "id": "id-d222f5f2abfd489c8efe864224741100",
+            "name": "Technology Service A",
+            "type": "TechnologyService",
+            "layer": "technology",
+            "documentation": ""
+        },
+        {
+            "id": "id-8177a7f49e584dc0bdd4016e23c84180",
+            "name": "Technology Service B",
+            "type": "TechnologyService",
+            "layer": "technology",
+            "documentation": ""
+        },
+        {
+            "id": "id-e0c12dda6e854c509c81e557ac562570",
+            "name": "Technology Service C",
+            "type": "TechnologyService",
+            "layer": "technology",
+            "documentation": ""
+        },
+        {
+            "id": "id-a639158e6faa42e6856a7424feaedf75",
+            "name": "Technology Service D",
+            "type": "TechnologyService",
+            "layer": "technology",
+            "documentation": ""
+        }
+    ],
+    "relationships": [
+        {
+            "id": "id-284b253b902a4e7780e2336785cf9bf5",
+            "name": "",
+            "sourceId": "id-4a917f339ab44430a226a31e6df7463c",
+            "targetId": "id-288678f904424603843ba31436bcba1a",
+            "type": "Access",
+            "documentation": ""
+        },
+        {
+            "id": "id-3ac8121da5ce4932a67d1cf224be0d9c",
+            "name": "",
+            "sourceId": "id-146c8f9496934124a3adc6df2cfff13d",
+            "targetId": "id-c6e1407931fb4820bc4f7f78ba6cd514",
+            "type": "Realization",
+            "documentation": ""
+        },
+        {
+            "id": "id-56577c52c4154e17bbbcb4c639cce8d3",
+            "name": "",
+            "sourceId": "id-4a917f339ab44430a226a31e6df7463c",
+            "targetId": "id-c6e1407931fb4820bc4f7f78ba6cd514",
+            "type": "Realization",
+            "documentation": ""
+        },
+        {
+            "id": "id-789d763c4f5a4fdfbaf3b85aa2f60842",
+            "name": "",
+            "sourceId": "id-146c8f9496934124a3adc6df2cfff13d",
+            "targetId": "id-ce2b66559bd4445e8d6baa1c9cfd3a8e",
+            "type": "Access",
+            "documentation": ""
+        },
+        {
+            "id": "id-4057594ca5a646ee986c4c7ffb732313",
+            "name": "",
+            "sourceId": "id-c456630e733c42e1bd35a959dc9a2853",
+            "targetId": "id-c5c08b58286c489eacc4455b28ecf1c2",
+            "type": "Realization",
+            "documentation": ""
+        },
+        {
+            "id": "id-3ad1900cab0d477fb4bc97632de6bc43",
+            "name": "",
+            "sourceId": "id-e36f95266805418081bba6894b57ff9b",
+            "targetId": "id-c5c08b58286c489eacc4455b28ecf1c2",
+            "type": "Realization",
+            "documentation": ""
+        },
+        {
+            "id": "id-f9220c80e219481880e4434500f8459d",
+            "name": "",
+            "sourceId": "id-3d7bdd932e6e4169b136e3b899d1bea6",
+            "targetId": "id-77f0a81cc331412382d299dcc8e2f32a",
+            "type": "Realization",
+            "documentation": ""
+        },
+        {
+            "id": "id-0702758758d744baa59452def2e70847",
+            "name": "",
+            "sourceId": "id-82d9ecb290ef4268b0a30ae9d0714c29",
+            "targetId": "id-77f0a81cc331412382d299dcc8e2f32a",
+            "type": "Realization",
+            "documentation": ""
+        },
+        {
+            "id": "id-bdadcb094183427a813898d8355717ec",
+            "name": "",
+            "sourceId": "id-a639158e6faa42e6856a7424feaedf75",
+            "targetId": "id-d222f5f2abfd489c8efe864224741100",
+            "type": "Triggering",
+            "documentation": ""
+        },
+        {
+            "id": "id-98414e8de4214cc396f6e1de4cd2721d",
+            "name": "",
+            "sourceId": "id-e0c12dda6e854c509c81e557ac562570",
+            "targetId": "id-a639158e6faa42e6856a7424feaedf75",
+            "type": "Triggering",
+            "documentation": ""
+        },
+        {
+            "id": "id-2059ae0a15bc44b1a6a3c16779be4b7f",
+            "name": "",
+            "sourceId": "id-d222f5f2abfd489c8efe864224741100",
+            "targetId": "id-8177a7f49e584dc0bdd4016e23c84180",
+            "type": "Triggering",
+            "documentation": ""
+        },
+        {
+            "id": "id-82b14bf4e18347b4a274cdd02a49572d",
+            "name": "",
+            "sourceId": "id-8177a7f49e584dc0bdd4016e23c84180",
+            "targetId": "id-e0c12dda6e854c509c81e557ac562570",
+            "type": "Triggering",
+            "documentation": ""
+        }
+    ],
+    "views": [
+        {
+            "id": "id-116aabe24b9c407b847cd36e12866daf",
+            "name": "Default View",
+            "documentation": "",
+            "viewpoint": ""
+        }
+    ],
+    "warnings": []
+}

@@ -1,0 +1,185 @@
+{
+    "archimateId": "id-d06a05eb15fb403a822c65ea4f858df1",
+    "name": "Test Model 1",
+    "documentation": "",
+    "file": "experiment1-dataset/model-01.archimate",
+    "format": "ARCHIMATE",
+    "has_warning": false,
+    "elements": [
+        {
+            "id": "id-afce8e798ab24d6b80e4559415523b98",
+            "name": "Chatty Service",
+            "type": "BusinessService",
+            "layer": "business",
+            "documentation": ""
+        },
+        {
+            "id": "id-d2253528686d46c79c3fd66df98f09db",
+            "name": "Business Service D",
+            "type": "BusinessService",
+            "layer": "business",
+            "documentation": ""
+        },
+        {
+            "id": "id-1213927b452f492299d13885303cb266",
+            "name": "Business Service C",
+            "type": "BusinessService",
+            "layer": "business",
+            "documentation": ""
+        },
+        {
+            "id": "id-9719523b24b04223a1e70de22f1fb61c",
+            "name": "Business Service B",
+            "type": "BusinessService",
+            "layer": "business",
+            "documentation": ""
+        },
+        {
+            "id": "id-568635cdce2d4cc5ad645496f6548864",
+            "name": "Business Service A",
+            "type": "BusinessService",
+            "layer": "business",
+            "documentation": ""
+        },
+        {
+            "id": "id-f6e97035418947e2a6d793f1da92f032",
+            "name": "Business Actor",
+            "type": "BusinessActor",
+            "layer": "business",
+            "documentation": ""
+        },
+        {
+            "id": "id-b244437cfa1d4d1c964f7e09c5448f77",
+            "name": "Business Process 1",
+            "type": "BusinessProcess",
+            "layer": "business",
+            "documentation": ""
+        },
+        {
+            "id": "id-a6fcc1f7076043b88de0783817babedc",
+            "name": "Business Process 2",
+            "type": "BusinessProcess",
+            "layer": "business",
+            "documentation": ""
+        },
+        {
+            "id": "id-ed568466b9d0409b939839cfd80961d1",
+            "name": "Technology Service A",
+            "type": "TechnologyService",
+            "layer": "technology",
+            "documentation": ""
+        },
+        {
+            "id": "id-1359dceeec66468e84a1c373aa1649e1",
+            "name": "Technology Service B",
+            "type": "TechnologyService",
+            "layer": "technology",
+            "documentation": ""
+        },
+        {
+            "id": "id-66c5287060244bd6af8dfbc37d9be17e",
+            "name": "Technology Service C",
+            "type": "TechnologyService",
+            "layer": "technology",
+            "documentation": ""
+        },
+        {
+            "id": "id-e1507c7ec5104e8ca4f32cfa494e5b54",
+            "name": "Technology Service D",
+            "type": "TechnologyService",
+            "layer": "technology",
+            "documentation": ""
+        }
+    ],
+    "relationships": [
+        {
+            "id": "id-6e8feda9498f42dd928f0eb1358625a3",
+            "name": "",
+            "sourceId": "id-afce8e798ab24d6b80e4559415523b98",
+            "targetId": "id-9719523b24b04223a1e70de22f1fb61c",
+            "type": "Triggering",
+            "documentation": ""
+        },
+        {
+            "id": "id-ffe927cb9fd84dcea66ca5a0a6955479",
+            "name": "",
+            "sourceId": "id-afce8e798ab24d6b80e4559415523b98",
+            "targetId": "id-568635cdce2d4cc5ad645496f6548864",
+            "type": "Flow",
+            "documentation": ""
+        },
+        {
+            "id": "id-f01b916bcb714cda836a2c64cfca9d24",
+            "name": "",
+            "sourceId": "id-d2253528686d46c79c3fd66df98f09db",
+            "targetId": "id-afce8e798ab24d6b80e4559415523b98",
+            "type": "Triggering",
+            "documentation": ""
+        },
+        {
+            "id": "id-00e326b1136442c097e0edc4bd708666",
+            "name": "",
+            "sourceId": "id-afce8e798ab24d6b80e4559415523b98",
+            "targetId": "id-1213927b452f492299d13885303cb266",
+            "type": "Serving",
+            "documentation": ""
+        },
+        {
+            "id": "id-7933ef334d584789b61ed47e1ca1b182",
+            "name": "",
+            "sourceId": "id-e1507c7ec5104e8ca4f32cfa494e5b54",
+            "targetId": "id-ed568466b9d0409b939839cfd80961d1",
+            "type": "Triggering",
+            "documentation": ""
+        },
+        {
+            "id": "id-24c0e854b24d48dcbe26a34f1a391614",
+            "name": "",
+            "sourceId": "id-66c5287060244bd6af8dfbc37d9be17e",
+            "targetId": "id-e1507c7ec5104e8ca4f32cfa494e5b54",
+            "type": "Triggering",
+            "documentation": ""
+        },
+        {
+            "id": "id-cdbe0ae7456c41a492e8fbd6ec18da96",
+            "name": "",
+            "sourceId": "id-ed568466b9d0409b939839cfd80961d1",
+            "targetId": "id-1359dceeec66468e84a1c373aa1649e1",
+            "type": "Triggering",
+            "documentation": ""
+        },
+        {
+            "id": "id-fc172b4312b14626a1702a17f79ec718",
+            "name": "",
+            "sourceId": "id-1359dceeec66468e84a1c373aa1649e1",
+            "targetId": "id-66c5287060244bd6af8dfbc37d9be17e",
+            "type": "Triggering",
+            "documentation": ""
+        },
+        {
+            "id": "id-42d664ed65db4dbeb9d50fa97bfbc1d0",
+            "name": "",
+            "sourceId": "id-f6e97035418947e2a6d793f1da92f032",
+            "targetId": "id-a6fcc1f7076043b88de0783817babedc",
+            "type": "Assignment",
+            "documentation": ""
+        },
+        {
+            "id": "id-6354f0cf9fff4ff98ba020342c7ad10b",
+            "name": "",
+            "sourceId": "id-f6e97035418947e2a6d793f1da92f032",
+            "targetId": "id-b244437cfa1d4d1c964f7e09c5448f77",
+            "type": "Assignment",
+            "documentation": ""
+        }
+    ],
+    "views": [
+        {
+            "id": "id-c60685e70679491296e8450a375fcc42",
+            "name": "Default View",
+            "documentation": "",
+            "viewpoint": ""
+        }
+    ],
+    "warnings": []
+}

@@ -1,0 +1,199 @@
+{
+    "archimateId": "id-f5fa85e7c8ca4c8898ec0b39ebf1522e",
+    "name": "Test Model 9",
+    "documentation": "",
+    "file": "experiment1-dataset/model-09.archimate",
+    "format": "ARCHIMATE",
+    "has_warning": false,
+    "elements": [
+        {
+            "id": "id-64819836a75a445196bfdced40e88a86",
+            "name": "Business Actor",
+            "type": "BusinessActor",
+            "layer": "business",
+            "documentation": ""
+        },
+        {
+            "id": "id-fb577410a2174a349f52f75cd6e4f105",
+            "name": "Business Process 1",
+            "type": "BusinessProcess",
+            "layer": "business",
+            "documentation": ""
+        },
+        {
+            "id": "id-5ba176e6911146bf9715ba113cc24d5c",
+            "name": "Business Process 2",
+            "type": "BusinessProcess",
+            "layer": "business",
+            "documentation": ""
+        },
+        {
+            "id": "id-880d30b17892430fb6d7fc72073a9973",
+            "name": "Business Actor",
+            "type": "BusinessActor",
+            "layer": "business",
+            "documentation": ""
+        },
+        {
+            "id": "id-7f7b7d434bf84bd49692df8b04c8fef7",
+            "name": "Business Process 1",
+            "type": "BusinessProcess",
+            "layer": "business",
+            "documentation": ""
+        },
+        {
+            "id": "id-f9ad369ca0b04510be42544f7905a929",
+            "name": "Business Process 2",
+            "type": "BusinessProcess",
+            "layer": "business",
+            "documentation": ""
+        },
+        {
+            "id": "id-5b24b0f1db8d4a3aa82ffbd0abe9cceb",
+            "name": "Application Service",
+            "type": "ApplicationService",
+            "layer": "application",
+            "documentation": ""
+        },
+        {
+            "id": "id-a4d878ce1b574bbd9d5763e951da4715",
+            "name": "Application Function",
+            "type": "ApplicationFunction",
+            "layer": "application",
+            "documentation": ""
+        },
+        {
+            "id": "id-16cdc9e64f3b457c979353743e53f7ac",
+            "name": "Application Component A",
+            "type": "ApplicationComponent",
+            "layer": "application",
+            "documentation": ""
+        },
+        {
+            "id": "id-f7fba7a2049649a9a5ee2866995f14bb",
+            "name": "Application Component B",
+            "type": "ApplicationComponent",
+            "layer": "application",
+            "documentation": ""
+        },
+        {
+            "id": "id-7f89509d5540460683b0be9684643735",
+            "name": "Technology Service A",
+            "type": "TechnologyService",
+            "layer": "technology",
+            "documentation": ""
+        },
+        {
+            "id": "id-6540a1d906784407820fee81dfd8cd22",
+            "name": "Technology Service B",
+            "type": "TechnologyService",
+            "layer": "technology",
+            "documentation": ""
+        },
+        {
+            "id": "id-8b00640b14d54be9975225d4f18d96ae",
+            "name": "Artifact B",
+            "type": "Artifact",
+            "layer": "technology",
+            "documentation": ""
+        },
+        {
+            "id": "id-414d2ebb2f6243528d9e1d3c50a73534",
+            "name": "Artifact A",
+            "type": "Artifact",
+            "layer": "technology",
+            "documentation": ""
+        }
+    ],
+    "relationships": [
+        {
+            "id": "id-bfdb026be2b448a3936156b0f7f92a9a",
+            "name": "",
+            "sourceId": "id-6540a1d906784407820fee81dfd8cd22",
+            "targetId": "id-8b00640b14d54be9975225d4f18d96ae",
+            "type": "Access",
+            "documentation": ""
+        },
+        {
+            "id": "id-4aa5d2ad8d8841878d4f6fd862da62f7",
+            "name": "",
+            "sourceId": "id-7f89509d5540460683b0be9684643735",
+            "targetId": "id-5b24b0f1db8d4a3aa82ffbd0abe9cceb",
+            "type": "Realization",
+            "documentation": ""
+        },
+        {
+            "id": "id-b273c0c9065f4d089efbbb4fa9a980aa",
+            "name": "",
+            "sourceId": "id-6540a1d906784407820fee81dfd8cd22",
+            "targetId": "id-5b24b0f1db8d4a3aa82ffbd0abe9cceb",
+            "type": "Realization",
+            "documentation": ""
+        },
+        {
+            "id": "id-9af29636b024424880376f2f4a75ca8d",
+            "name": "",
+            "sourceId": "id-7f89509d5540460683b0be9684643735",
+            "targetId": "id-414d2ebb2f6243528d9e1d3c50a73534",
+            "type": "Access",
+            "documentation": ""
+        },
+        {
+            "id": "id-f073a96056a8425190b172cfb33e4214",
+            "name": "",
+            "sourceId": "id-64819836a75a445196bfdced40e88a86",
+            "targetId": "id-5ba176e6911146bf9715ba113cc24d5c",
+            "type": "Assignment",
+            "documentation": ""
+        },
+        {
+            "id": "id-5ef1b53c957c4bdea6ce6c6ed7e9db53",
+            "name": "",
+            "sourceId": "id-64819836a75a445196bfdced40e88a86",
+            "targetId": "id-fb577410a2174a349f52f75cd6e4f105",
+            "type": "Assignment",
+            "documentation": ""
+        },
+        {
+            "id": "id-05ae81f4a79f4779898a63380b5f4c33",
+            "name": "",
+            "sourceId": "id-880d30b17892430fb6d7fc72073a9973",
+            "targetId": "id-f9ad369ca0b04510be42544f7905a929",
+            "type": "Assignment",
+            "documentation": ""
+        },
+        {
+            "id": "id-7b19f4df3d934328af93310a66258cc5",
+            "name": "",
+            "sourceId": "id-880d30b17892430fb6d7fc72073a9973",
+            "targetId": "id-7f7b7d434bf84bd49692df8b04c8fef7",
+            "type": "Assignment",
+            "documentation": ""
+        },
+        {
+            "id": "id-a2af566420954c48afe574760f1d08b9",
+            "name": "",
+            "sourceId": "id-f7fba7a2049649a9a5ee2866995f14bb",
+            "targetId": "id-a4d878ce1b574bbd9d5763e951da4715",
+            "type": "Realization",
+            "documentation": ""
+        },
+        {
+            "id": "id-9a179582dc374199aa98a68987a2090d",
+            "name": "",
+            "sourceId": "id-16cdc9e64f3b457c979353743e53f7ac",
+            "targetId": "id-a4d878ce1b574bbd9d5763e951da4715",
+            "type": "Realization",
+            "documentation": ""
+        }
+    ],
+    "views": [
+        {
+            "id": "id-78f367ba022b496a92de3a8ed7aaef6b",
+            "name": "Default View",
+            "documentation": "",
+            "viewpoint": ""
+        }
+    ],
+    "warnings": []
+}

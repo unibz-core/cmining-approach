@@ -1,0 +1,200 @@
+{
+    "archimateId": "id-3cd5c519173049829cfbe75ad3e5b3aa",
+    "name": "Test Model 8",
+    "documentation": "",
+    "file": "experiment1-dataset/model-08.archimate",
+    "format": "ARCHIMATE",
+    "has_warning": false,
+    "elements": [
+        {
+            "id": "id-aba636b8c1cd4dd7803211c865c0d229",
+            "name": "Chatty Service",
+            "type": "BusinessService",
+            "layer": "business",
+            "documentation": ""
+        },
+        {
+            "id": "id-fc96f9f64385470f9cc49da377f557d0",
+            "name": "Business Service D",
+            "type": "BusinessService",
+            "layer": "business",
+            "documentation": ""
+        },
+        {
+            "id": "id-78a048278dc341649058d884f33c17a3",
+            "name": "Business Service C",
+            "type": "BusinessService",
+            "layer": "business",
+            "documentation": ""
+        },
+        {
+            "id": "id-a8497115114f4de491971235144e68ad",
+            "name": "Business Service B",
+            "type": "BusinessService",
+            "layer": "business",
+            "documentation": ""
+        },
+        {
+            "id": "id-23b246e62ab548619578047e5543d186",
+            "name": "Business Service A",
+            "type": "BusinessService",
+            "layer": "business",
+            "documentation": ""
+        },
+        {
+            "id": "id-8bb6080e1b1547c093162ec0d756024e",
+            "name": "Business Service ",
+            "type": "BusinessService",
+            "layer": "business",
+            "documentation": ""
+        },
+        {
+            "id": "id-bd627838272249939c446d42c8be53a4",
+            "name": "Data Service",
+            "type": "ApplicationService",
+            "layer": "application",
+            "documentation": ""
+        },
+        {
+            "id": "id-5096cfe1d8704521bbf44c3c7aa32a7c",
+            "name": "Application Service",
+            "type": "ApplicationService",
+            "layer": "application",
+            "documentation": ""
+        },
+        {
+            "id": "id-8ec09de8e67e49cfa381a04db0d95c88",
+            "name": "Data Object",
+            "type": "DataObject",
+            "layer": "application",
+            "documentation": ""
+        },
+        {
+            "id": "id-7bac969dfce0459cbd258962fd29b129",
+            "name": "Technology Service A",
+            "type": "TechnologyService",
+            "layer": "technology",
+            "documentation": ""
+        },
+        {
+            "id": "id-b739ddfc7d9140188e268d05a70fc6dc",
+            "name": "Technology Service B",
+            "type": "TechnologyService",
+            "layer": "technology",
+            "documentation": ""
+        },
+        {
+            "id": "id-af72c3623f6a45c883070a15418e6b9b",
+            "name": "Technology Service C",
+            "type": "TechnologyService",
+            "layer": "technology",
+            "documentation": ""
+        },
+        {
+            "id": "id-73b92e87d6264fd49ba4869c63490864",
+            "name": "Technology Service D",
+            "type": "TechnologyService",
+            "layer": "technology",
+            "documentation": ""
+        }
+    ],
+    "relationships": [
+        {
+            "id": "id-7bfd50c0376f4cda8b140b10a2f4ffde",
+            "name": "",
+            "sourceId": "id-aba636b8c1cd4dd7803211c865c0d229",
+            "targetId": "id-a8497115114f4de491971235144e68ad",
+            "type": "Triggering",
+            "documentation": ""
+        },
+        {
+            "id": "id-51e408c804464c4dbe01ee335c6dd8fa",
+            "name": "",
+            "sourceId": "id-aba636b8c1cd4dd7803211c865c0d229",
+            "targetId": "id-23b246e62ab548619578047e5543d186",
+            "type": "Flow",
+            "documentation": ""
+        },
+        {
+            "id": "id-3876f680760e458c8295d9fa0c251dfc",
+            "name": "",
+            "sourceId": "id-fc96f9f64385470f9cc49da377f557d0",
+            "targetId": "id-aba636b8c1cd4dd7803211c865c0d229",
+            "type": "Triggering",
+            "documentation": ""
+        },
+        {
+            "id": "id-bd28d912be9548139a6ddaad4a58e1a8",
+            "name": "",
+            "sourceId": "id-aba636b8c1cd4dd7803211c865c0d229",
+            "targetId": "id-78a048278dc341649058d884f33c17a3",
+            "type": "Serving",
+            "documentation": ""
+        },
+        {
+            "id": "id-f8c8248219404a1eba844fc639f400af",
+            "name": "",
+            "sourceId": "id-73b92e87d6264fd49ba4869c63490864",
+            "targetId": "id-7bac969dfce0459cbd258962fd29b129",
+            "type": "Triggering",
+            "documentation": ""
+        },
+        {
+            "id": "id-a2abbe4ec9e04f3493feccbd0785961f",
+            "name": "",
+            "sourceId": "id-af72c3623f6a45c883070a15418e6b9b",
+            "targetId": "id-73b92e87d6264fd49ba4869c63490864",
+            "type": "Triggering",
+            "documentation": ""
+        },
+        {
+            "id": "id-9fa6f8eb3ac7403aaa779b152f198ed3",
+            "name": "",
+            "sourceId": "id-7bac969dfce0459cbd258962fd29b129",
+            "targetId": "id-b739ddfc7d9140188e268d05a70fc6dc",
+            "type": "Triggering",
+            "documentation": ""
+        },
+        {
+            "id": "id-20c3963261e8466baaec7da53346dfb3",
+            "name": "",
+            "sourceId": "id-b739ddfc7d9140188e268d05a70fc6dc",
+            "targetId": "id-af72c3623f6a45c883070a15418e6b9b",
+            "type": "Triggering",
+            "documentation": ""
+        },
+        {
+            "id": "id-87f9248ba9f64eb093e5319119687b69",
+            "name": "",
+            "sourceId": "id-bd627838272249939c446d42c8be53a4",
+            "targetId": "id-8bb6080e1b1547c093162ec0d756024e",
+            "type": "Serving",
+            "documentation": ""
+        },
+        {
+            "id": "id-b1c66f48250b4c11ac38ac64626c8a3d",
+            "name": "",
+            "sourceId": "id-bd627838272249939c446d42c8be53a4",
+            "targetId": "id-8ec09de8e67e49cfa381a04db0d95c88",
+            "type": "Access",
+            "documentation": ""
+        },
+        {
+            "id": "id-35a27ebc0a9f4384aa18fabc3c082512",
+            "name": "",
+            "sourceId": "id-bd627838272249939c446d42c8be53a4",
+            "targetId": "id-5096cfe1d8704521bbf44c3c7aa32a7c",
+            "type": "Serving",
+            "documentation": ""
+        }
+    ],
+    "views": [
+        {
+            "id": "id-f960ffdfb33d4b1286f70d58bcbed5ac",
+            "name": "Default View",
+            "documentation": "",
+            "viewpoint": ""
+        }
+    ],
+    "warnings": []
+}

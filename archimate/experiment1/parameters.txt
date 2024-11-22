@@ -1,0 +1,483 @@
+# CHATTY SERVICE
+? Filter elements by:  Specific Types
+Selected element filter kind: Specific Types
+? Select element types to filter out:  done (62 selections)
+Selected element type filters:
+[
+    'AndJunction',
+    'ApplicationCollaboration',
+    'ApplicationComponent',
+    'ApplicationEvent',
+    'ApplicationFunction',
+    'ApplicationInteraction',
+    'ApplicationInterface',
+    'ApplicationProcess',
+    'ApplicationService',
+    'Artifact',
+    'Assessment',
+    'BusinessActor',
+    'BusinessCollaboration',
+    'BusinessEvent',
+    'BusinessFunction',
+    'BusinessInteraction',
+    'BusinessInterface',
+    'BusinessObject',
+    'BusinessProcess',
+    'BusinessRole',
+    'Capability',
+    'CommunicationNetwork',
+    'Constraint',
+    'Contract',
+    'CourseOfAction',
+    'DataObject',
+    'Deliverable',
+    'Device',
+    'DistributionNetwork',
+    'Driver',
+    'Equipment',
+    'Facility',
+    'Gap',
+    'Goal',
+    'Grouping',
+    'ImplementationEvent',
+    'Junction',
+    'Location',
+    'Material',
+    'Meaning',
+    'Node',
+    'OrJunction',
+    'Outcome',
+    'Path',
+    'Plateau',
+    'Principle',
+    'Product',
+    'Representation',
+    'Requirement',
+    'Resource',
+    'Stakeholder',
+    'SystemSoftware',
+    'TechnologyCollaboration',
+    'TechnologyEvent',
+    'TechnologyFunction',
+    'TechnologyInteraction',
+    'TechnologyInterface',
+    'TechnologyProcess',
+    'TechnologyService',
+    'Value',
+    'ValueStream',
+    'WorkPackage'
+]
+? Select relationship types to filter out:  done (8 selections)
+Selected relationship type filters:
+['Access', 'Aggregation', 'Assignment', 'Association', 'Composition', 'Influence', 'Realization', 'Specialization']
+? Select edges to filter-out:  done (2 selections)
+Selected edge label filters:
+['specific', 'general']
+? Enter the min_support value  3
+? Enter the min_num_vertices  9
+Selected values: [3, 9]
+? Stop the process?  Yes
+
+
+
+# COMBINATORIAL EXPLOSION
+? Filter elements by:  Specific Types
+Selected element filter kind: Specific Types
+? Select element types to filter out:  done (60 selections
+Selected element type filters:
+[
+    'AndJunction',
+    'ApplicationCollaboration',
+    'ApplicationComponent',
+    'ApplicationEvent',
+    'ApplicationFunction',
+    'ApplicationInteraction',
+    'ApplicationInterface',
+    'ApplicationProcess',
+    'Assessment',
+    'BusinessActor',
+    'BusinessCollaboration',
+    'BusinessEvent',
+    'BusinessFunction',
+    'BusinessInteraction',
+    'BusinessInterface',
+    'BusinessObject',
+    'BusinessProcess',
+    'BusinessRole',
+    'BusinessService',
+    'Capability',
+    'CommunicationNetwork',
+    'Constraint',
+    'Contract',
+    'CourseOfAction',
+    'DataObject',
+    'Deliverable',
+    'Device',
+    'DistributionNetwork',
+    'Driver',
+    'Equipment',
+    'Facility',
+    'Gap',
+    'Goal',
+    'Grouping',
+    'ImplementationEvent',
+    'Junction',
+    'Location',
+    'Material',
+    'Meaning',
+    'Node',
+    'OrJunction',
+    'Outcome',
+    'Path',
+    'Plateau',
+    'Principle',
+    'Product',
+    'Representation',
+    'Requirement',
+    'Resource',
+    'Stakeholder',
+    'SystemSoftware',
+    'TechnologyCollaboration',
+    'TechnologyEvent',
+    'TechnologyFunction',
+    'TechnologyInteraction',
+    'TechnologyInterface',
+    'TechnologyProcess',
+    'Value',
+    'ValueStream',
+    'WorkPackage'
+]
+? Select relationship types to filter out:  done (9 selections)
+Selected relationship type filters:
+['Aggregation', 'Assignment', 'Association', 'Composition', 'Flow', 'Influence', 'Serving', 'Specialization', 'Triggering']
+? Select edges to filter-out:  done (2 selections)
+Selected edge label filters:
+['specific', 'general']
+? Enter the min_support value  4
+? Enter the min_num_vertices  9
+Selected values: [4, 9]
+? Stop the process?  Yes
+
+
+
+# CYCLIC DEPENDENCY 
+? Filter elements by:  Specific Types
+Selected element filter kind: Specific Types
+? Select element types to filter out:  done (62 selections)
+Selected element type filters:
+[
+    'AndJunction',
+    'ApplicationCollaboration',
+    'ApplicationComponent',
+    'ApplicationEvent',
+    'ApplicationFunction',
+    'ApplicationInteraction',
+    'ApplicationInterface',
+    'ApplicationProcess',
+    'ApplicationService',
+    'Artifact',
+    'Assessment',
+    'BusinessActor',
+    'BusinessCollaboration',
+    'BusinessEvent',
+    'BusinessFunction',
+    'BusinessInteraction',
+    'BusinessInterface',
+    'BusinessObject',
+    'BusinessProcess',
+    'BusinessRole',
+    'BusinessService',
+    'Capability',
+    'CommunicationNetwork',
+    'Constraint',
+    'Contract',
+    'CourseOfAction',
+    'DataObject',
+    'Deliverable',
+    'Device',
+    'DistributionNetwork',
+    'Driver',
+    'Equipment',
+    'Facility',
+    'Gap',
+    'Goal',
+    'Grouping',
+    'ImplementationEvent',
+    'Junction',
+    'Location',
+    'Material',
+    'Meaning',
+    'Node',
+    'OrJunction',
+    'Outcome',
+    'Path',
+    'Plateau',
+    'Principle',
+    'Product',
+    'Representation',
+    'Requirement',
+    'Resource',
+    'Stakeholder',
+    'SystemSoftware',
+    'TechnologyCollaboration',
+    'TechnologyEvent',
+    'TechnologyFunction',
+    'TechnologyInteraction',
+    'TechnologyInterface',
+    'TechnologyProcess',
+    'Value',
+    'ValueStream',
+    'WorkPackage'
+]
+? Select relationship types to filter out:  done (10 selections)
+Selected relationship type filters:
+['Access', 'Aggregation', 'Assignment', 'Association', 'Composition', 'Flow', 'Influence', 'Realization', 'Serving', 'Specialization']
+? Select edges to filter-out:  done (2 selections)
+Selected edge label filters:
+['specific', 'general']
+? Enter the min_support value  6
+? Enter the min_num_vertices  8
+Selected values: [6, 8]
+? Stop the process?  Yes
+
+
+
+# DATA SERVICE
+? Filter elements by:  Specific Types
+Selected element filter kind: Specific Types
+? Select element types to filter out:  done (60 selections)
+Selected element type filters:
+[
+    'AndJunction',
+    'ApplicationCollaboration',
+    'ApplicationComponent',
+    'ApplicationEvent',
+    'ApplicationFunction',
+    'ApplicationInteraction',
+    'ApplicationInterface',
+    'ApplicationProcess',
+    'Artifact',
+    'Assessment',
+    'BusinessActor',
+    'BusinessCollaboration',
+    'BusinessEvent',
+    'BusinessFunction',
+    'BusinessInteraction',
+    'BusinessInterface',
+    'BusinessObject',
+    'BusinessProcess',
+    'BusinessRole',
+    'Capability',
+    'CommunicationNetwork',
+    'Constraint',
+    'Contract',
+    'CourseOfAction',
+    'Deliverable',
+    'Device',
+    'DistributionNetwork',
+    'Driver',
+    'Equipment',
+    'Facility',
+    'Gap',
+    'Goal',
+    'Grouping',
+    'ImplementationEvent',
+    'Junction',
+    'Location',
+    'Material',
+    'Meaning',
+    'Node',
+    'OrJunction',
+    'Outcome',
+    'Path',
+    'Plateau',
+    'Principle',
+    'Product',
+    'Representation',
+    'Requirement',
+    'Resource',
+    'Stakeholder',
+    'SystemSoftware',
+    'TechnologyCollaboration',
+    'TechnologyEvent',
+    'TechnologyFunction',
+    'TechnologyInteraction',
+    'TechnologyInterface',
+    'TechnologyProcess',
+    'TechnologyService',
+    'Value',
+    'ValueStream',
+    'WorkPackage'
+]
+? Select relationship types to filter out:  done (9 selections)
+Selected relationship type filters:
+['Aggregation', 'Assignment', 'Association', 'Composition', 'Flow', 'Influence', 'Realization', 'Specialization', 'Triggering']
+? Select edges to filter-out:  done (2 selections)
+Selected edge label filters:
+['specific', 'general']
+? Enter the min_support value  3
+? Enter the min_num_vertices  7
+Selected values: [3, 7]
+? Stop the process?  Yes
+
+
+
+# MULTIFACETED ABSTRACTION
+? Filter elements by:  Specific Types
+Selected element filter kind: Specific Types
+? Select element types to filter out:  done (61 selections)
+Selected element type filters:
+[
+    'AndJunction',
+    'ApplicationCollaboration',
+    'ApplicationComponent',
+    'ApplicationEvent',
+    'ApplicationFunction',
+    'ApplicationInteraction',
+    'ApplicationInterface',
+    'ApplicationProcess',
+    'ApplicationService',
+    'Artifact',
+    'Assessment',
+    'BusinessCollaboration',
+    'BusinessEvent',
+    'BusinessFunction',
+    'BusinessInteraction',
+    'BusinessInterface',
+    'BusinessObject',
+    'BusinessRole',
+    'BusinessService',
+    'Capability',
+    'CommunicationNetwork',
+    'Constraint',
+    'Contract',
+    'CourseOfAction',
+    'DataObject',
+    'Deliverable',
+    'Device',
+    'DistributionNetwork',
+    'Driver',
+    'Equipment',
+    'Facility',
+    'Gap',
+    'Goal',
+    'Grouping',
+    'ImplementationEvent',
+    'Junction',
+    'Location',
+    'Material',
+    'Meaning',
+    'Node',
+    'OrJunction',
+    'Outcome',
+    'Path',
+    'Plateau',
+    'Principle',
+    'Product',
+    'Representation',
+    'Requirement',
+    'Resource',
+    'Stakeholder',
+    'SystemSoftware',
+    'TechnologyCollaboration',
+    'TechnologyEvent',
+    'TechnologyFunction',
+    'TechnologyInteraction',
+    'TechnologyInterface',
+    'TechnologyProcess',
+    'TechnologyService',
+    'Value',
+    'ValueStream',
+    'WorkPackage'
+]
+? Select relationship types to filter out:  done (10 selections)
+Selected relationship type filters:
+['Access', 'Aggregation', 'Association', 'Composition', 'Flow', 'Influence', 'Realization', 'Serving', 'Specialization', 'Triggering']
+? Select edges to filter-out:  done (2 selections)
+Selected edge label filters:
+['specific', 'general']
+? Enter the min_support value  5
+? Enter the min_num_vertices  5
+Selected values: [5, 5]
+? Stop the process?  Yes
+
+
+
+# WRONG CUTS
+? Filter elements by:  Specific Types
+Selected element filter kind: Specific Types
+? Select element types to filter out:  done (61 selections)
+Selected element type filters:
+[
+    'AndJunction',
+    'ApplicationCollaboration',
+    'ApplicationEvent',
+    'ApplicationInteraction',
+    'ApplicationInterface',
+    'ApplicationProcess',
+    'ApplicationService',
+    'Artifact',
+    'Assessment',
+    'BusinessActor',
+    'BusinessCollaboration',
+    'BusinessEvent',
+    'BusinessFunction',
+    'BusinessInteraction',
+    'BusinessInterface',
+    'BusinessObject',
+    'BusinessProcess',
+    'BusinessRole',
+    'BusinessService',
+    'Capability',
+    'CommunicationNetwork',
+    'Constraint',
+    'Contract',
+    'CourseOfAction',
+    'DataObject',
+    'Deliverable',
+    'Device',
+    'DistributionNetwork',
+    'Driver',
+    'Equipment',
+    'Facility',
+    'Gap',
+    'Goal',
+    'Grouping',
+    'ImplementationEvent',
+    'Junction',
+    'Location',
+    'Material',
+    'Meaning',
+    'Node',
+    'OrJunction',
+    'Outcome',
+    'Path',
+    'Plateau',
+    'Principle',
+    'Product',
+    'Representation',
+    'Requirement',
+    'Resource',
+    'Stakeholder',
+    'SystemSoftware',
+    'TechnologyCollaboration',
+    'TechnologyEvent',
+    'TechnologyFunction',
+    'TechnologyInteraction',
+    'TechnologyInterface',
+    'TechnologyProcess',
+    'TechnologyService',
+    'Value',
+    'ValueStream',
+    'WorkPackage'
+]
+? Select relationship types to filter out:  done (10 selections)
+Selected relationship type filters:
+['Access', 'Aggregation', 'Assignment', 'Association', 'Composition', 'Flow', 'Influence', 'Serving', 'Specialization', 'Triggering']
+? Select edges to filter-out:  done (2 selections)
+Selected edge label filters:
+['specific', 'general']
+? Enter the min_support value  7
+? Enter the min_num_vertices  5
+Selected values: [7, 5]
+? Stop the process?  Yes
