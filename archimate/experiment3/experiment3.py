@@ -5,8 +5,10 @@ from sklearn.metrics import confusion_matrix
 import test_patterns
 import test_graphClustering1
 
+# Mining output containing the selected patterns (extracted from experiment 1 neutral trial)
 PATTERNS_PATH = "outputpatterns.txt"
 
+# Helper functions
 def extract_cluster(list_of_lists):
     indexes = [item[1] for item in list_of_lists]
     return indexes
@@ -51,13 +53,14 @@ trend = [
             [0.68,0.96], [0.69,0.96], [0.7,0.96], [0.71,0.94], [0.72,0.94], [0.73,0.93], [0.74,0.93], 
             [0.75,0.93], [0.8,0.88], [0.85,0.875], [0.9,0.85], [0.95,0.835], [0.99,0.83]
         ]
-output = ['cluster_0', 'cluster_0', 'cluster_0', 'cluster_0', 'cluster_0', 'cluster_1', 'cluster_2', 'cluster_2', 'cluster_2', 'cluster_3', 'cluster_3', 'cluster_3', 'cluster_3', 'cluster_3', 'cluster_4', 'cluster_4', 'cluster_4', 'cluster_5', 'cluster_6', 'cluster_7']
 
+# Replace with clustering output of output_ (line 42)
+output = ['cluster_0', 'cluster_0', 'cluster_0', 'cluster_0', 'cluster_0', 'cluster_1', 'cluster_2', 'cluster_2', 'cluster_2', 'cluster_3', 'cluster_3', 'cluster_3', 'cluster_3', 'cluster_3', 'cluster_4', 'cluster_4', 'cluster_4', 'cluster_5', 'cluster_6', 'cluster_7']
 
 first_numbers = [item[0] for item in trend]
 second_numbers = [item[1] for item in trend]
 
-
+# PLOT
 colormap = plt.cm.Blues
 plt.figure(figsize=(8, 7))
 ax = sns.barplot(x=first_numbers,y=second_numbers, hue=first_numbers, palette=colormap(second_numbers), legend=False, alpha=1)
@@ -67,26 +70,9 @@ ax.set_ylim(0, 1.05)
 ax.set_yticklabels([])
 for i, v in enumerate(second_numbers):
     ax.text(i, v + 0.01, str(v), ha='center', va='bottom', rotation=90, fontsize=12, color='#565656')
-
 plt.xlabel('Clustering Threshold', fontsize=15)
 plt.ylabel('Accuracy', fontsize=15)
 plt.savefig('chart.png', dpi=300)
-#plt.savefig('test.pdf', dpi=300)
-
-true_labels = np.array(ground_truth)
-predicted_labels = np.array(output)
-labels = np.unique(np.concatenate((true_labels, predicted_labels)))
-cm = confusion_matrix(true_labels, predicted_labels, labels=labels)
-accuracy = np.sum(np.diag(cm)) / np.sum(cm)
-
-plt.figure(figsize=(8, 9))
-sns.heatmap(cm, annot=True, fmt="d", cmap="Blues", xticklabels=labels, yticklabels=labels)
-plt.xlabel('Predicted Clusters')
-plt.ylabel('True Clusters')
-plt.title(f'Confusion matrix for the best threshold (0.65 - 0.7)\nAccuracy : 0.96') #{accuracy:.2f}'
-plt.savefig('matrix.png', dpi=300)
-# plt.show()
-
 
 def calculate_accuracy(A, B, P):
     accuracy = 0
@@ -100,7 +86,6 @@ def calculate_accuracy(A, B, P):
             if checkPredicted == checkReal:
                 accuracy += 1
             numPairs += 1
-
     if numPairs == 0:
         return 0.0
     else:
